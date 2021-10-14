@@ -9,11 +9,7 @@ public class payment extends Main {
     private static int numberOfTicket;
     private static int price = 7;
 
-    public payment(int age, double ticketPrice, int numberOfTicket, int price) {
-        payment.age = age;
-        payment.ticketPrice = ticketPrice;
-        payment.numberOfTicket = numberOfTicket;
-        payment.price = price;
+    public payment() {
     }
 
     public static void input(){
